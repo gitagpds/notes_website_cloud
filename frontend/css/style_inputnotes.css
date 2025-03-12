@@ -1,0 +1,62 @@
+/* Styling Sidebar */
+#sidebar-wrapper {
+    width: 280px; /* Sidebar diperbesar */
+    min-height: 100vh;
+}
+
+.sidebar-heading img {
+    width: 50px; /* Logo diperbesar */
+}
+
+.brand-name {
+    font-size: 24px; /* Tulisan Memomate diperbesar */
+}
+
+/* Menu Sidebar */
+.list-group-item {
+    border: none;
+    font-size: 18px;
+    padding: 15px 20px; /* Memberi jarak lebih besar antar menu */
+}
+
+.list-group-item:hover {
+    background-color: rgba(111, 66, 193, 0.2); /* Hover ungu transparan */
+    color: #6f42c1;
+}
+
+.list-group-item.active {
+    background-color: #d9c6f5; /* Warna lebih soft untuk menu Home */
+    color: black;
+    font-weight: bolder;
+}
+
+/* Button Styling */
+.btn-purple {
+    background-color: #6f42c1;
+    border: none;
+    font-size: 20px;
+    padding: 10px 20px;
+}
+
+.btn-purple:hover {
+    background-color: #5a3796;
+}
+
+#note-taking {
+    max-width: 100%;
+}
+
+#note-preview {
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.btn-purple {
+    background-color: #6f42c1;
+    color: white;
+}
+
+.btn-purple:hover {
+    background-color: #5a32a3;
+}
